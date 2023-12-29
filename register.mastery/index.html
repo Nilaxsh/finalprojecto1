@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>Mastery</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Registration form</h2>
+      </div>
+      <form class="form" id="form">
+        <div class="form__control">
+          <label>UserName</label>
+          <input
+            type="text"
+            placeholder="Insert your user name..."
+            id="userName"
+          />
+          <i class="fa fa-check-circle"></i>
+          <i class="fa fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+        <div class="form__control">
+          <label>Email</label>
+          <input type="email" placeholder="hello@exemple.com" id="email" />
+          <i class="fa fa-check-circle"></i>
+          <i class="fa fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+        <div class="form__control">
+          <label>Password</label>
+          <input type="password" placeholder="password..." id="password" />
+          <i class="fa fa-check-circle"></i>
+          <i class="fa fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+        <div class="form__control">
+          <label>Confirm Password</label>
+          <input
+            type="password"
+            placeholder="confirm password..."
+            id="confirmPassword"
+          />
+          <i class="fa fa-check-circle"></i>
+          <i class="fa fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+        <button>Submit</button>
+      </form>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
